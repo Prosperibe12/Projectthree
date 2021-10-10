@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Prosper's Website</title>
+		<meta charset="utf-8">
+		<meta name="keyword" content="">
+		<meta name="description" content="NGO,aid,">
+		<meta name="author" content="Prosper Ibe">
+		<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Roboto+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link href="icons/css/all.css" rel="stylesheet">
+	</head>
+	<style type="text/css">
+		.first{
+			border:3px solid green;
+			min-height:100px;
+		}
+		span ul li a:hover{
+			border-radius:5px;
+			width:80px;
+			margin:auto;
+			font-family: 'La Belle Aurore', cursive;
+			font-size:20px;
+		}
+		.second{
+			background-color:rgb(11,9,10);
+		}
+		.word{
+			color:white;
+			font-family: 'Roboto Mono', monospace;
+			font-weight:normal;
+			font-size:16px;
+			margin-left:0px;
+		}
+		#overlay{
+			background-color:rgba(0,0,0,1.0);
+			background-size:cover;
+			height:100%;
+			width:100%;
+		}
+		h3{
+			color:rgb(45,198,83);
+			padding-top:10px;
+		}
+		#icon{
+			height:50px;
+			width:50px;
+			position:fixed;
+			top:70%;
+			right:1px;
+		}
+		@media all and (min-width:320px) and (max-width:520px){
+			textarea{
+				row:3;
+				width:100%;
+		}
+	</style>
+	
+	<body>
+	<div class="container-fluid first">
+		<div class="row">
+			<div class="col-md-12" style="padding-left:0px;padding-right:0px">
+				<div class="pos-f-t">
+					<div class="collapse" id="navbarToggleExternalContent">
+						<div class="p-4" style="background-color:rgb(11,9,10)">
+							<h4 class="text-white">Prosper Ibe</h4>
+								<p style="color:white">Fullstack Web Developer</p>
+								<span class="text-muted"><ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#myskills">My Skill</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contactme.html">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Pprofile.html">Home</a>
+							</li>
+							</span>
+						</div>
+					</div>
+						<nav class="navbar navbar-dark"style="background-color:rgb(11,9,10)">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</nav>
+				</div>
+			</div>
+		</div>
+		<div class="row second">
+			<div class="col-lg-6" style="padding:0px">
+				<div id="overlay">
+				<img src="images/WIN_20211008_10_55_48_Pro.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<h3 style="color:rgb(45,198,83)">about me</h3>
+				<p class="word" style="font-size:20px">
+					Mission-driven full stack developer with a passion for thoughtful
+					web application & design, collaboration, and teaching.
+				</p>
+				<p class="word">As a Web Developer, i enjoy using my obsessive attention to details, my passion for learning new things,and my mission-driven work ethic to develop new things.</p>
+				<p class="word"> I enjoy turning complex problems into simple, beautiful and intuitive things. When i'm not pushing codes, you'll find me cooking or gaming.</p>
+			</div>
+		</div>
+		<!--skills-->
+	<div class="row second" id="myskills">
+		<div class="col-md-12">
+			<h3>Skills & Experience</h3>
+			<p class="word">Since the begining of my journey as a web developer,i have created successful websites that are fast and built with best practices. I am proficient in front end development with HTML, CSS, BOOTSTRAP, building small and medium websites and coding interactive layouts.</p>
+			<p class="word"> Visit my<a href="https://github.com/Prosperibe12" style="text-decoration:none;color:rgb(45,198,83)"> GitHub</a> profile or just<!-- Button trigger modal -->
+			<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+			Contact
+			</button></a> me.</p>
+		</div>
+	</div>
+				<div class="row text-center second">
+						<div id="icon"><a href="#"><img src="images/icons8-twitter.gif" height="20px" width="20px"></a>
+							<a href="#"><img src="images/Pngtreepink facebook log.png" height="30px" width="30px"></a>
+							<a href="https://wa.link/fm331a"><img src="images/icons8-whatsapp-48.png" height="30px" width="30px"></a></div>
+					<div class="col-md-4">
+						<img alt="" src="images/html5.png" class="responsive-img"/><span style="color:white">HTML5</span>
+					</div>
+					<div class="col-md-4">
+						<img alt="" src="images/bootstrap.png" class="responsive-img"/><span style="color:white">BTS</span>
+					</div>
+					<div class="col-md-4">
+						<img alt="" src="images/css3.png" class="responsive-img"/><span style="color:white">CSS3</span>
+					</div>
+				</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Contact Form</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+				<div class="modal-body">
+						<form action="" method="" class="form-vertical">
+							<div class="form-row">
+									<div class="col form-group">
+											<input type="text" class="form-control" placeholder="Full Name" name="fullname">
+									</div>
+									<div class="col form-group">
+											<input type="email" class="form-control" placeholder="Email" name="email id">
+									</div>
+							</div>
+						</form>
+					<form action="" method="" class="form-vertical">
+							<div class="form-group">
+								<select name="subject" placeholder="Subject" class="form-control">
+										<option value="">Subject</option>
+										<option value="Employment">Employment</option>
+										<option value="Freelance">Freelance</option>
+										<option value="Remote Jobs">Remote Jobs</option>
+								</select>
+							</div>
+							<div class="form-group">
+									<textarea placeholder="Message-box" rows="5" cols="60%"></textarea>
+							</div>
+							<button type="submit" class="btn btn-outline-success">Send Message</button>
+					</form>
+				</div>
+      
+			</div>
+		</div>
+	</div>
+		
+
+<!-- JS Files-->
+		<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+	</body>
+</html>
